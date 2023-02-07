@@ -14,6 +14,7 @@ class BasicsDemo {
   
   public static void main(String[] args) {	
 	   	// Language Basics 1
-		print();				
-  }       
+    print();
+    print();
+  }
 }
