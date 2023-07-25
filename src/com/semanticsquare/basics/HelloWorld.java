@@ -1,6 +1,6 @@
 //package com.semanticsquare.basics;
 
-public class HelloWorld {
+class HelloWorld1 {
   // Adapted from http://www.ntu.edu.sg/home/ehchua/programming/java/J1a_Introduction.html
   static void print() {
     System.out.println("\n\nInside print ...");
