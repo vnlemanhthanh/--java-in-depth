@@ -15,7 +15,5 @@ public class HelloWorld {
   public static void main(String[] args) {	
 	   	// Language Basics
     print();
-    print();
-    print();
   }
 }
