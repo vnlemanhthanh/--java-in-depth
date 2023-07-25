@@ -15,6 +15,16 @@ class BasicsDemo {
   public static void main(String[] args) {
     print();
 
+    int i =6;
+    double j =2.5;
+    System.out.println(i + j);
+    System.out.println(i - j);
+    System.out.println(i * j);
+    System.out.println(i / j);
+    System.out.println(i % j);
+    // System.out.println(i ** j);
+
+
   }
 
 }
