@@ -1,4 +1,4 @@
-package com.semanticsquare.basics;
+//package com.semanticsquare.basics;
 
 public class HelloWorld {
   // Adapted from http://www.ntu.edu.sg/home/ehchua/programming/java/J1a_Introduction.html
