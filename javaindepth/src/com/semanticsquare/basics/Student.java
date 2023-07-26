@@ -32,7 +32,7 @@
 	  
 	  boolean international;
 	  double tuitionFees = 12000.0;
-	  double internationalFees = 5000.0;
+	  double internationalFees = tuitionFees = 5000.0;
 	
 	  void compute() {	
    	  computeCount = computeCount + 1;
