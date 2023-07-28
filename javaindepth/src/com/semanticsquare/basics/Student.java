@@ -14,9 +14,9 @@
 	  double tuitionFees = 12000.0;
 	  double internationalFees = 5000.0;
 	  
-	  Student(int newId, String newName, String newGender, int newAge, long newPhone, double newGpa, 
+	  Student(int id, String newName, String newGender, int newAge, long newPhone, double newGpa, 
 					char newDegree, boolean isInternational) {
-	      id = newId;
+	      id = id;
 		  name = newName;
 		  gender = newGender;
 		  age = newAge;
