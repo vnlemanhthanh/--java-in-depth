@@ -1,3 +1,5 @@
+//package com.semanticsquare.asm;
+
 class CurrencyConverter {
 
   double[] exchangeRates = new double[7];
