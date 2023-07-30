@@ -286,6 +286,19 @@
 		return approved;
 	}
 	
+	static void switchExample() {
+		System.out.println("\nInside switchExample ...");
+		int month = 3;
+		switch (month) {
+			case 1: System.out.println("January");
+								break;
+			case 2: System.out.println("February");
+								break;
+				case 3: System.out.println("March");
+								break;
+			default: System.out.println("April");
+		}
+  }
 		
 	
 	public static void main(String[] args) {	
@@ -294,20 +307,20 @@
 	  //primitives();
 	  //typeCasting();
 	  //arrays();	
-      //threeDimensionalArrays();	
-      /*varargsOverload(true, 1, 2, 3);
-      varargsOverload(true, 1, 2, 3, 4, 5, 6, 7, 8);	  
-      varargsOverload(true);*/
+    //threeDimensionalArrays();	
+    /*varargsOverload(true, 1, 2, 3);
+    	varargsOverload(true, 1, 2, 3, 4, 5, 6, 7, 8);	  
+    	varargsOverload(true);*/
 	  
 	  //preAndPost();
 	  //compoundArithmeticAssignment();
 	  //isOddOrEven(51);
-	  
-      //comparisonOperators();
-      //logicalOperators();	  
+	
+    //comparisonOperators();
+    //logicalOperators();	  
 	  //bitwiseOperators();
-	  ifStatement();
-
+	  // ifStatement();
+		switchExample();
 
   }  
 
