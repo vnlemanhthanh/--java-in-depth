@@ -181,12 +181,12 @@
 		System.out.println("isInternational == true: " + (isInternational == true)); 
 		System.out.println("isInternational != true: " + (isInternational != true));
 		
-		Student s1 = new Student(1000, "Dheeru");
-		Student s2 = new Student(1000, "Dheeru");
-		System.out.println("s1 == s2: " + (s1 == s2)); // See object class
-		System.out.println("s1 != s2: " + (s1 != s2));
+		// Student s1 = new Student(1000, "Dheeru");
+		// Student s2 = new Student(1000, "Dheeru");
+		// System.out.println("s1 == s2: " + (s1 == s2)); // See object class
+		// System.out.println("s1 != s2: " + (s1 != s2));
 		
-		update(s1, "John");
+		// update(s1, "John");
 	}		
 	
 	static boolean update(Student s, String name) {
@@ -232,8 +232,8 @@
 		// ALWAYS USE PARENTHESIS for READABILITY. Not everyone is aware of precedence rules
 		
 		// 4. Use && to avoid NullPointerException
-		Student s1 = new Student(1001, "Raj");
-		update(s1, "Dheeru");
+		// Student s1 = new Student(1001, "Raj");
+		// update(s1, "Dheeru");
 	}
 	
 	static void bitwiseOperators() {
@@ -256,7 +256,38 @@
 		//double d2 = 5.15;
 		//System.out.println("d1 | d2: " + (d1 | d2));
   }
+
+	static boolean ifStatement() {
+		boolean approved = false;
 		
+		int age = 27;
+		int salary = 60000;
+		boolean hasBadCredit = false;
+		
+		if (age >= 25 && age <= 35 && salary >= 50000) {		
+			approved = true;            			
+			System.out.println("age >= 25 && age <= 35 && salary >= 50000");
+		} else if (age > 35 && age <= 45 && salary >= 70000) {
+			approved = true;			
+			System.out.println("age > 35 && age <= 45 && salary >= 70000");
+		} else if (age > 45 && age <= 55 && salary >= 90000) {
+			approved = true;			
+			System.out.println("age > 45 && age <= 55 && salary >= 90000");
+		} else {
+		    if (age > 55 && !hasBadCredit) {
+				approved = true;			
+				System.out.println("age > 55 && !hasBadCredit");
+			}
+			System.out.println("else block");
+		}
+		
+				
+		System.out.println("outside if");
+		return approved;
+	}
+	
+		
+	
 	public static void main(String[] args) {	
 	  // Language Basics 1
 	  //print();				
@@ -271,9 +302,15 @@
 	  //preAndPost();
 	  //compoundArithmeticAssignment();
 	  //isOddOrEven(51);
-	  //charTypePromotion();
-	  //comparisonOperators();
-      //logicalOperators();
-	  bitwiseOperators();
-    }       
-  }
+	  
+      //comparisonOperators();
+      //logicalOperators();	  
+	  //bitwiseOperators();
+	  ifStatement();
+
+
+  }  
+
+    	
+}
+  
