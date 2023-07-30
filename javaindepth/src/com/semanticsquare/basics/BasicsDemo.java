@@ -287,6 +287,10 @@
 	}
 	
 	static void switchExample() {
+		boolean isMale = true;
+		System.out.println("Ternary : Hello " + (isMale ? "Mr. " : "Ms. ") + "Thanh");
+
+
 		System.out.println("\nInside switchExample ...");
 		int x = -256;
 		byte month = (byte) x;
