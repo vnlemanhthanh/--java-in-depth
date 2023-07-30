@@ -21,7 +21,11 @@ public class CarPriceEstimator {
 		//       else 
 		//               return salePrice * 0.1 (i.e., 10% of current salePrice)
 		// Note: Use compound arithmetic assignment operators
-		
+		if (ageOfCar <= 10) {
+			salePrice -= salePrice * ageOfCar * 0.05;
+		} else {
+			salePrice *= 0.1; 
+		}
 		
 		System.out.println("salePrice after depreciation: " + salePrice);
 		
