@@ -288,15 +288,17 @@
 	
 	static void switchExample() {
 		System.out.println("\nInside switchExample ...");
-		int month = 3;
+		int x = -256;
+		byte month = (byte) x;
 		switch (month) {
-			case 1: System.out.println("January");
+			case (byte)'a': System.out.println("January :" + (byte)'a');
 								break;
-			case 2: System.out.println("February");
+			case (byte)128: System.out.println("February :" + (byte) 128);
 								break;
-				case 3: System.out.println("March");
+				case (byte)255: System.out.println("March :" + (byte) 255 );
 								break;
-			default: System.out.println("April");
+			default: System.out.println("April :" + (byte) x);
+							break;
 		}
   }
 		
@@ -310,7 +312,7 @@
     //threeDimensionalArrays();	
     /*varargsOverload(true, 1, 2, 3);
     	varargsOverload(true, 1, 2, 3, 4, 5, 6, 7, 8);	  
-    	varargsOverload(true);*/
+    varargsOverload(true);*/
 	  
 	  //preAndPost();
 	  //compoundArithmeticAssignment();
