@@ -31,7 +31,9 @@ public class Recursion {
 			} else {
 				return -1;
 			}
-		}
+		} else if (l > h) {
+      return -1;
+    }
 		
 		int mid = (l + h)/2;
 		
