@@ -309,17 +309,20 @@
 	static void labeledBreak() {
 	    System.out.println("\nInside labeledBreak ...");
 	    int num = 0;
+			int num2 = 0;
 		
-	    outermost: for (int i = 0; i < 10; i++) {
-	        for (int j = 0; j < 10; j++) {    
+	    for (int i = 0; i < 10; i++) {
+	        outermost: for (int j = 0; j < 10; j++) {    
 	            if (i == 5 && j == 5) {
 	                break outermost;
 	            }
 	            num++;
 	        }
+				num2++;
 	    }
 		
 	    System.out.println("num: " + num); // prints 55		
+	    System.out.println("num: " + num2); // prints 55		
     }
 		
 	public static void main(String[] args) {	
