@@ -6,6 +6,6 @@ public class Editor extends Staff {
 	}
 	
 	public void approveReview() {
-		
+		System.out.println("Editor: approveReview");
 	}
 }
