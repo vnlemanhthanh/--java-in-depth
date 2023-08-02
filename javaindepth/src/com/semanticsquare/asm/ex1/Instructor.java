@@ -1,3 +1,5 @@
+package com.semanticsquare.asm.ex1;
+
 public class Instructor {
     public long id;
 	public String name;

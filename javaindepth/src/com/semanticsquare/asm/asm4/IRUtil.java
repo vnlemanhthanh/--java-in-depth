@@ -1,3 +1,5 @@
+package com.semanticsquare.asm.asm4;
+
 public class IRUtil {
 
   public static int getFrequencyCount(String term, String doc) {

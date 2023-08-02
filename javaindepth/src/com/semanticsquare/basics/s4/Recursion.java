@@ -1,3 +1,5 @@
+package com.semanticsquare.basics.s4;
+
 public class Recursion {
 	
 	static int factorialNR(int n) {

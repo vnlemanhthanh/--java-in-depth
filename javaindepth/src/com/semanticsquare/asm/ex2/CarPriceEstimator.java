@@ -1,3 +1,5 @@
+package com.semanticsquare.asm.ex2;
+
 import java.time.LocalDate;
 
 public class CarPriceEstimator {

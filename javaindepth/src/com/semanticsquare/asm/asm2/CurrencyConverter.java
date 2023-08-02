@@ -1,3 +1,5 @@
+package com.semanticsquare.asm.asm2;
+
 //package com.semanticsquare.asm;
 
 class CurrencyConverter {

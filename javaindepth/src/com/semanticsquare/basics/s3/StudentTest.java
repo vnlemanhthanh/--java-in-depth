@@ -1,3 +1,5 @@
+package com.semanticsquare.basics.s3;
+
  
   class StudentTest {
       public static void main(String[] args) {

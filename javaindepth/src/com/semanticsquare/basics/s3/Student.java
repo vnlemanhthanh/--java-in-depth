@@ -1,3 +1,5 @@
+package com.semanticsquare.basics.s3;
+
 
 class Student {
 	static int studentCount;

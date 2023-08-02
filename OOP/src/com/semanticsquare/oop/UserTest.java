@@ -17,8 +17,8 @@ public class UserTest {
 		ut.printUserType(editor);
 		
 		// Part 2
-		/*editor.approveReview();
-		editor.postAReview();
-		editor.saveWebLink();*/
+		//((Editor) editor).approveReview();
+		//editor.postAReview();
+		editor.saveWebLink();
 	}
 }

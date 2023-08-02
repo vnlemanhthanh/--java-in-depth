@@ -1,3 +1,5 @@
+package com.semanticsquare.basics;
+
   
   class Student {
       static int studentCount;
@@ -16,7 +18,7 @@
 	  
 	  Student(int id, String newName, String newGender, int newAge, long newPhone, double newGpa, 
 					char newDegree, boolean isInternational) {
-	      id = id;
+	      this.id = id;
 		  name = newName;
 		  gender = newGender;
 		  age = newAge;

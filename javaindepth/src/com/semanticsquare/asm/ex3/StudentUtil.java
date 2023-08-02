@@ -1,3 +1,5 @@
+package com.semanticsquare.asm.ex3;
+
 public class StudentUtil {
 
     public static double[] calculateGPA(int[] studentIdList, char[][] studentsGrades) {
