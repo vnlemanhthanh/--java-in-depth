@@ -2,14 +2,18 @@ package com.semanticsquare.oop;
 
 public class User {
 	public int id = 1;
-
+	public String userType = "User";
+	
+	
+	
 	public void printUserType() {
 		System.out.println("User");
 	}
 
 	public void saveWebLink() {
 		System.out.println("User: saveWebLink");
-		// postAReview();
+		postAReview("");	 
+		staticMethod(); 
 	}
 
 	public Review postAReview(String reviewText) {
@@ -19,8 +23,9 @@ public class User {
 
 	}
 
-// Method binding demo
+	// Method binding demo
 	public static void staticMethod() {
+		System.out.println("\nUser: staticMethod");
 	}
 
 	public void instanceMethod(double d) {
@@ -30,4 +35,6 @@ public class User {
 	public void instanceMethod(User u) {
 		System.out.println("User: instanceMethod");
 	}
+	
+	public final void finalMethod() {}
 }

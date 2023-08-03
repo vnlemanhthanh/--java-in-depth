@@ -8,6 +8,16 @@ public class Staff extends User {
 		System.out.println("super.id: " + super.id);
 	}
 
+	public Staff() {
+		userType = "Staff";
+	}
+	
+	public void displayUserInfo() {
+		System.out.println("\nPrinting User Info: ");
+		System.out.println("id: " + id);
+		System.out.println("userType: " + userType);
+	}
+	
 	public void printUserType() {
 		System.out.println("Staff");
 	}
@@ -27,4 +37,9 @@ public class Staff extends User {
 		System.out.println("Staff: instanceMethod");
 	}
 
+	//public void finalMethod() {}
+
+	public static void staticMethod() {
+		System.out.println("Staff: staticMethod");
+	}
 }
