@@ -6,6 +6,6 @@ package com.semanticsquare.oop.defaultmethod;
 public interface C extends A {
    void foobar();
    default void go() {
-      System.out.println("C: go");
+      System.out.println("C: go() - " + this);
    }
 }

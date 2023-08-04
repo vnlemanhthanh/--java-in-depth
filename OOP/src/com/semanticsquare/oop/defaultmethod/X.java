@@ -5,11 +5,11 @@ package com.semanticsquare.oop.defaultmethod;
  */
 public class X extends AbstractA implements A, B, C, Cloneable {
    public void foo() {
-	   System.out.println("X: foo");
+	   System.out.println("X: foo()" + this);
 	   System.out.println("VAL: " + B.VAL);
    }
    public void foobar() {
-	   System.out.println("X: foobar");
+	   System.out.println("X: foobar()" + this);
    }
    
    public C clone() {

@@ -5,9 +5,9 @@ package com.semanticsquare.oop.defaultmethod;
  */
 import java.util.*;
 
-public class TestClient {
-	public static int getVal() {
-		return 42;
+public class TestClient { 
+	public static String getVal() {
+		return TestClient.class.toString(); 
 	}
 
 	public static void main(String[] args) {

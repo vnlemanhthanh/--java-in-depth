@@ -1,7 +1,7 @@
 package com.semanticsquare.oop.defaultmethod;
 
 public interface B {
-	int VAL = TestClient.getVal();
+	String VAL = TestClient.getVal() + "|" + B.class;
 
 	void foo();
 }

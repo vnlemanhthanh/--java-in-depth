@@ -1,7 +1,7 @@
 package com.semanticsquare.oop.defaultmethod;
 
 public interface A {
-	int VAL = 5;
+	String VAL = "A: " + A.class;
 
 	void foo();
 
