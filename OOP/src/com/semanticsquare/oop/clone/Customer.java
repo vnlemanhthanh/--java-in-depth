@@ -60,7 +60,9 @@ public class Customer implements Cloneable {
 
 	public Customer clone() {
 		try {
-			return (Customer) super.clone();
+			Customer customer = (Customer) super.clone();
+			customer.accountTypes = accountTypes.clone();
+			return customer;
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
 		}
