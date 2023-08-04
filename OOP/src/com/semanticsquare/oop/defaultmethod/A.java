@@ -6,4 +6,8 @@ public interface A {
 	void foo();
 
 	void bar();
+	
+	default void go() {
+	      System.out.println("A: go() - " + this);
+	   }
 }
