@@ -10,6 +10,7 @@ public class CustomerManager {
 			System.out.println("Clone successful");
 			
 			clone.setCreditScore(200);
+			clone.setName("Tao lao");
 			String[] accountTypes = clone.getAccountTypes();
 			accountTypes[1] = null;
 			
