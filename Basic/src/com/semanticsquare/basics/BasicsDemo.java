@@ -21,7 +21,7 @@ package com.semanticsquare.basics;
 	  System.out.println("intBinary: " + intBinary);
 	  int intChar = 'A'; // holds decimal equivalent, which is 65
 	  System.out.println("intChar: " + intChar);
-	  int intUnderscore = 1_23_456;
+	  int intUnderscore = 1_23_456_7;
 	  System.out.println("intUnderscore: " + intUnderscore);
 	  
 	  char charA = 'A';
