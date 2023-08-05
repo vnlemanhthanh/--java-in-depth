@@ -4043,3 +4043,908 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-05 20:16:00.873
 !MESSAGE No repository found at http://dl.bintray.com/testng-team/testng-p2-release/.
+!SESSION 2023-08-06 00:03:42.884 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.6
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-08-06 00:03:45.917
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2023-08-06 00:03:59.280
+!MESSAGE /css/gef_dark.css
+!STACK 0
+java.io.FileNotFoundException: /css/gef_dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:182)
+	at java.base/java.net.URL.openConnection(URL.java:1094)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:55)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:288)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:468)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:436)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:607)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1417)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1324)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1050)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.jface 2 0 2023-08-06 00:04:00.100
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-06 00:04:00.100
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-06 00:04:10.033
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vnlemanhthanh'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-06 00:44:38.405
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2023-08-06 00:46:06.972
+!MESSAGE No repository found at http://dl.bintray.com/testng-team/testng-p2-release/.
+
+!ENTRY org.eclipse.m2e.core 4 0 2023-08-06 00:46:24.596
+!MESSAGE Failed to obtain source for artifact org.eclipse.orbit.bundles:org.junit:4.13.2-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.eclipse.orbit.bundles:org.junit:jar:sources:4.13.2-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.core.internal.MavenArtifactIdentifier.resolveSourceLocation(MavenArtifactIdentifier.java:193)
+	at org.eclipse.m2e.sourcelookup.internal.launch.MavenSourceContainerResolver.resolveSourceContainer(MavenSourceContainerResolver.java:58)
+	at org.eclipse.m2e.sourcelookup.internal.launch.MavenSourceContainerResolver.lambda$0(MavenSourceContainerResolver.java:43)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.m2e.sourcelookup.internal.launch.MavenSourceContainerResolver.resolveSourceContainers(MavenSourceContainerResolver.java:44)
+	at org.eclipse.jdt.launching.sourcelookup.advanced.AdvancedSourceLookupParticipant.getSourceContainer(AdvancedSourceLookupParticipant.java:144)
+	at org.eclipse.jdt.launching.sourcelookup.advanced.AdvancedSourceLookupParticipant.findSourceElements(AdvancedSourceLookupParticipant.java:72)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector$SourceLookupQuery.run(AbstractSourceLookupDirector.java:138)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.doSourceLookup(AbstractSourceLookupDirector.java:473)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.getSourceElement(AbstractSourceLookupDirector.java:714)
+	at org.eclipse.jdt.internal.debug.core.JavaDebugUtils.doSourceLookup(JavaDebugUtils.java:399)
+	at org.eclipse.jdt.internal.debug.core.JavaDebugUtils.resolveSourceElement(JavaDebugUtils.java:393)
+	at org.eclipse.jdt.internal.debug.core.JavaDebugUtils.resolveSourceElement(JavaDebugUtils.java:360)
+	at org.eclipse.jdt.internal.debug.core.JavaDebugUtils.resolveJavaProject(JavaDebugUtils.java:415)
+	at org.eclipse.jdt.internal.debug.ui.JavaWatchExpressionDelegate$EvaluationRunnable.run(JavaWatchExpressionDelegate.java:117)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread$ThreadJob.run(JDIThread.java:3481)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.eclipse.orbit.bundles:org.junit:jar:sources:4.13.2-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-08-06 00:46:24.598
+!MESSAGE Could not resolve artifact org.eclipse.orbit.bundles:org.junit:jar:sources:4.13.2-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2023-08-06 00:46:24.598
+!MESSAGE Missing org.eclipse.orbit.bundles:org.junit:jar:sources:4.13.2-SNAPSHOT
+
+!ENTRY org.eclipse.m2e.core 4 0 2023-08-06 00:46:24.599
+!MESSAGE Failed to obtain source for artifact org.eclipse.orbit.bundles:org.junit:4.13.2-SNAPSHOT
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.eclipse.orbit.bundles:org.junit:jar:sources:4.13.2-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$6(MavenImpl.java:584)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:394)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:275)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:214)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:553)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:538)
+	at org.eclipse.m2e.core.internal.MavenArtifactIdentifier.resolveSourceLocation(MavenArtifactIdentifier.java:193)
+	at org.eclipse.m2e.sourcelookup.internal.launch.MavenSourceContainerResolver.resolveSourceContainer(MavenSourceContainerResolver.java:58)
+	at org.eclipse.m2e.sourcelookup.internal.launch.MavenSourceContainerResolver.lambda$0(MavenSourceContainerResolver.java:43)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+	at org.eclipse.m2e.sourcelookup.internal.launch.MavenSourceContainerResolver.resolveSourceContainers(MavenSourceContainerResolver.java:44)
+	at org.eclipse.jdt.launching.sourcelookup.advanced.AdvancedSourceLookupParticipant.getSourceContainer(AdvancedSourceLookupParticipant.java:144)
+	at org.eclipse.jdt.launching.sourcelookup.advanced.AdvancedSourceLookupParticipant.findSourceElements(AdvancedSourceLookupParticipant.java:72)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector$SourceLookupQuery.run(AbstractSourceLookupDirector.java:138)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.doSourceLookup(AbstractSourceLookupDirector.java:473)
+	at org.eclipse.debug.core.sourcelookup.AbstractSourceLookupDirector.getSourceElement(AbstractSourceLookupDirector.java:714)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupFacility.lookup(SourceLookupFacility.java:303)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupFacility$SourceLookupTask.run(SourceLookupFacility.java:752)
+	at org.eclipse.debug.internal.ui.sourcelookup.SourceLookupFacility$SourceLookupJob.run(SourceLookupFacility.java:690)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.eclipse.orbit.bundles:org.junit:jar:sources:4.13.2-SNAPSHOT
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2023-08-06 00:46:24.600
+!MESSAGE Could not resolve artifact org.eclipse.orbit.bundles:org.junit:jar:sources:4.13.2-SNAPSHOT
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2023-08-06 00:46:24.600
+!MESSAGE Missing org.eclipse.orbit.bundles:org.junit:jar:sources:4.13.2-SNAPSHOT
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:29.735
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:29.736
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:29.736
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:29.944
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:29.945
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:29.946
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.049
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.050
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.051
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.156
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.157
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.157
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.253
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.254
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.255
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.353
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.354
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:30.355
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:35.259
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:35.260
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:35.261
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:35.337
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:35.337
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:35.338
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:35.430
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:35.431
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:35.432
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:36.562
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:36.563
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:36.563
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:36.633
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:36.634
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:36.635
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:36.709
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:36.709
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:36.710
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:37.382
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:37.383
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:37.384
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:37.467
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:37.468
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:37.469
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:37.536
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:37.537
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:37.538
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:40.702
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:40.702
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:40.703
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:40.786
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:40.787
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:40.788
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:40.862
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:40.862
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:40.863
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:41.413
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:41.414
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:41.415
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:41.476
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:41.477
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:41.478
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:41.560
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:41.561
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:41.562
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:43.375
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:43.376
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:43.377
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:43.459
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:43.459
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:43.460
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:43.548
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:43.549
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:43.551
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.159
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.160
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.161
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.222
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.223
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.224
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.294
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.295
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.295
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.631
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.632
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.632
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.713
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.714
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.715
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.784
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.785
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:44.786
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:45.303
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", volatile expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:45.303
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:45.304
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:45.372
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", volatile expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:45.372
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:45.373
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:45.449
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", volatile expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:45.451
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:45.451
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:48.430
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:48.431
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:48.432
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:48.502
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:48.502
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:48.503
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:48.590
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:48.591
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:48.591
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:49.112
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:49.112
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:49.113
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:49.224
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:49.226
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:49.228
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:49.330
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:49.331
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:49.332
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:51.081
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:51.082
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:51.083
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:51.179
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:51.180
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:51.182
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:51.260
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:51.261
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:46:51.262
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:49:03.901
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:49:03.901
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:49:03.902
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:49:03.990
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:49:03.990
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:49:03.991
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:49:04.057
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:49:04.057
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:49:04.058
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:10.861
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:10.862
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:10.863
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:10.972
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:10.972
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:10.973
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:11.050
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:11.050
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:11.051
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.470
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.471
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.472
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.539
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.540
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.541
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.638
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.639
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.640
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.978
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", volatile expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.979
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:15.980
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:16.050
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", volatile expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:16.050
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:16.051
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:16.124
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", volatile expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:16.125
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:16.126
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:17.305
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:17.306
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:17.306
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:17.362
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:17.362
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:17.363
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:17.426
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:17.427
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:52:17.428
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:19.235
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:19.236
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:19.237
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:19.317
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:19.318
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:19.318
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:19.391
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:19.391
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:19.392
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:20.524
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:20.525
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:20.525
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:20.591
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:20.592
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:20.592
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:20.647
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:20.648
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:20.648
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.018
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.018
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.019
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.075
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.076
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.077
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.137
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.137
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.138
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.606
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", volatile expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.607
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.608
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.660
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", volatile expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.661
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.661
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.713
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", volatile expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.714
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:29.715
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:31.228
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:31.229
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:31.229
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:31.288
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:31.289
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:31.289
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:31.338
+!MESSAGE Compile error during code evaluation: Syntax error on token "void", instanceof expected
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:31.339
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.debug.core 2 0 2023-08-06 00:55:31.340
+!MESSAGE Compile error during code evaluation: Syntax error on tokens, delete these tokens
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2023-08-06 01:24:04.241
+!MESSAGE Disconnected before saving. Please post stacktrace to https://bugs.eclipse.org/bugs/show_bug.cgi?id=569286 org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor StudentTest.java
+!STACK 0
+java.lang.IllegalStateException: Disconnected before saving. Please post stacktrace to https://bugs.eclipse.org/bugs/show_bug.cgi?id=569286 org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor StudentTest.java
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.disconnectEditor(AbstractTextEditor.java:7148)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.dispose(AbstractTextEditor.java:4329)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.dispose(AbstractDecoratedTextEditor.java:383)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.dispose(JavaEditor.java:2668)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.dispose(CompilationUnitEditor.java:1517)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:264)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:421)
+	at jdk.internal.reflect.GeneratedMethodAccessor88.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:987)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:952)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:193)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:177)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:89)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:103)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:487)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:184)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:947)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:861)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:845)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:185)
+	at jdk.internal.reflect.GeneratedMethodAccessor71.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:133)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1404)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1334)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$3.close(StackRenderer.java:1177)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1970)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4072)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+	Suppressed: java.lang.IllegalStateException: isDirty check after disconnect
+		at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.isDirty(AbstractTextEditor.java:7197)
+		at org.eclipse.ui.internal.Workbench.getFilteredSaveables(Workbench.java:3431)
+		at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3404)
+		at org.eclipse.ui.ide.IDE$1.run(IDE.java:1458)
+		at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+		at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1446)
+		at org.eclipse.ui.actions.CloseResourceAction.run(CloseResourceAction.java:190)
+		at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:171)
+		at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+		at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+		... 27 more

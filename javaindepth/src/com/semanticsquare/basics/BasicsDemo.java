@@ -196,7 +196,7 @@ package com.semanticsquare.basics;
 		   return false;
 		}
 		
-		s.name = name;		
+		s.setName(name);		
 		return true;
 	}
 	
