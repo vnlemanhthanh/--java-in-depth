@@ -16,7 +16,7 @@ public class StudentTestDrive {
 		
 		list.add(student1);
 		list.add(student2);
-		list.add(student3);
+		list.add(student3); 
 		
 		for (Student student : list) {
 			String name = student.getName();
