@@ -27,7 +27,6 @@ public class ExceptionsDemo {
 	    String response = HttpConnect.send(1, "hello",
 		    "http://www.goodsnips.com");
 	    System.out.println("After invoking send ...");
-	    
 	    APIParser.parseSendResponseCode(response, "hello",
 		    "http://www.goodsnips.com");
 	} catch (FileNotFoundException e) {
@@ -37,7 +36,7 @@ public class ExceptionsDemo {
 	    System.out.println("Connecting to a different server ...");
 	} catch (APIFormatChangeException e) {
 	    // Item 65: Don’t ignore exceptions
-	    e.printStackTrace();
+	    // e.printStackTrace();
 
 	    // Item 63: Include failure-capture information in detail messages
 	    // System.out.println("e.toString(): " + e);
@@ -47,7 +46,7 @@ public class ExceptionsDemo {
 	    // System.out.println("e.getElementName(): " + e.getElementName());
 
 	    // Item 61: Throw exceptions appropriate to the abstraction
-	    // e.getCause().printStackTrace();
+	    e.getCause().printStackTrace();
 	} finally {
 	    System.out.println("Inside share's finally ...");
 	}

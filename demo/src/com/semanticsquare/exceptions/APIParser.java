@@ -16,7 +16,12 @@ public class APIParser {
 			.parseInt(response.substring(beginIndex, endIndex));
 	    }
 	} catch (NumberFormatException e) {
-	    throw new APIFormatChangeException();
+	    // throw new APIFormatChangeException("Response: " + response + ",
+	    // Element: code, Partner: " + partner);
+	    APIFormatChangeException e1 = new APIFormatChangeException(response,
+		    "code", partner);
+	    e1.initCause(e);
+	    throw e1;
 	}
 
 	return responseCode;
