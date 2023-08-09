@@ -1,5 +1,8 @@
 package edu.fx.thrillio.managers;
 
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+
 import edu.fx.thrillio.dao.BookmarkDao;
 import edu.fx.thrillio.entities.Book;
 import edu.fx.thrillio.entities.Bookmark;
@@ -7,7 +10,8 @@ import edu.fx.thrillio.entities.Movie;
 import edu.fx.thrillio.entities.User;
 import edu.fx.thrillio.entities.UserBookmark;
 import edu.fx.thrillio.entities.WebLink;
-import edu.fx.thrillio.partner.Shareable;
+import edu.fx.thrillio.util.HttpConnect;
+import edu.fx.thrillio.util.IOUtil;
 
 public class BookmarkManager {
     private static BookmarkManager instance = new BookmarkManager();
@@ -20,6 +24,15 @@ public class BookmarkManager {
 	return instance;
     }
 
+    /**
+     * Creates the web link.
+     *
+     * @param id the id
+     * @param title the title
+     * @param url the url
+     * @param host the host
+     * @return the web link
+     */
     public WebLink createWebLink(long id, String title, String url,
 	    String host) {
 	WebLink weblink = new WebLink();
@@ -71,6 +84,25 @@ public class BookmarkManager {
 	userBookmark.setUser(user);
 	userBookmark.setBookmark(bookmark);
 
+	if (bookmark instanceof WebLink) {
+	    try {
+		String url = ((WebLink) bookmark).getUrl();
+		if (!url.endsWith(".pdf")) {
+		    String webpage = HttpConnect
+			    .download(((WebLink) bookmark).getUrl());
+		    if (webpage != null) {
+			IOUtil.write(webpage, bookmark.getId());
+		    }
+		}
+	    } catch (MalformedURLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	    } catch (URISyntaxException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	    }
+	}
+
 	dao.saveUserBookmark(userBookmark);
 
     }
@@ -79,8 +111,7 @@ public class BookmarkManager {
 	    Bookmark bookmark) {
 	bookmark.setKidFriendlyStatus(kidFriendlyStatus);
 	bookmark.setKidFriendMarkedBy(user);
-	System.out.println(
-		"Kid-friendly status: " + kidFriendlyStatus
+	System.out.println("Kid-friendly status: " + kidFriendlyStatus
 		+ ", Marked by: " + user.getEmail() + ", " + bookmark);
 
     }
