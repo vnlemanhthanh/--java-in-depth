@@ -24,15 +24,6 @@ public class BookmarkManager {
 	return instance;
     }
 
-    /**
-     * Creates the web link.
-     *
-     * @param id the id
-     * @param title the title
-     * @param url the url
-     * @param host the host
-     * @return the web link
-     */
     public WebLink createWebLink(long id, String title, String url,
 	    String host) {
 	WebLink weblink = new WebLink();
@@ -46,7 +37,7 @@ public class BookmarkManager {
 
     public Book createBook(long id, String title, int publicationYear,
 	    String publisher, String[] authors, String genre,
-	    double amazoneRating) {
+	    double amazonRating) {
 	Book book = new Book();
 	book.setId(id);
 	book.setTitle(title);
@@ -54,13 +45,13 @@ public class BookmarkManager {
 	book.setPublisher(publisher);
 	book.setAuthors(authors);
 	book.setGenre(genre);
-	book.setAmazoneRating(amazoneRating);
+	book.setAmazonRating(amazonRating);
 
 	return book;
     }
 
     public Movie createMovie(long id, String title, String profileUrl,
-	    int releaseYear, String[] cast, String[] drectors, String genre,
+	    int releaseYear, String[] cast, String[] directors, String genre,
 	    double imdbRating) {
 	Movie movie = new Movie();
 	movie.setId(id);
@@ -68,11 +59,12 @@ public class BookmarkManager {
 	movie.setProfileUrl(profileUrl);
 	movie.setReleaseYear(releaseYear);
 	movie.setCast(cast);
-	movie.setDirectors(drectors);
+	movie.setDirectors(directors);
 	movie.setGenre(genre);
 	movie.setImdbRating(imdbRating);
 
 	return movie;
+
     }
 
     public Bookmark[][] getBookmarks() {
@@ -104,25 +96,27 @@ public class BookmarkManager {
 	}
 
 	dao.saveUserBookmark(userBookmark);
-
     }
 
     public void setKidFriendlyStatus(User user, String kidFriendlyStatus,
 	    Bookmark bookmark) {
 	bookmark.setKidFriendlyStatus(kidFriendlyStatus);
-	bookmark.setKidFriendMarkedBy(user);
+	bookmark.setKidFriendlyMarkedBy(user);
+
 	System.out.println("Kid-friendly status: " + kidFriendlyStatus
 		+ ", Marked by: " + user.getEmail() + ", " + bookmark);
-
     }
 
     public void share(User user, Bookmark bookmark) {
 	bookmark.setSharedBy(user);
-	System.out.println("Data to be shares: ");
+
+	System.out.println("Data to be shared: ");
 	if (bookmark instanceof Book) {
 	    System.out.println(((Book) bookmark).getItemData());
 	} else if (bookmark instanceof WebLink) {
 	    System.out.println(((WebLink) bookmark).getItemData());
 	}
+
     }
+
 }
