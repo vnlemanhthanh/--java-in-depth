@@ -1,10 +1,0 @@
-
-k
-java:S1118":Add a private constructor to hide the implicit public one.(ЄЖ╠ь·    HЬRMAJORZ
-CODE_SMELL
-l
-java:S1128"@Remove this unused import 'edu.fx.thrillio.constants.BookGenre'.(╓├усHЭRMINORZ
-CODE_SMELL
-m
-java:S1128"ARemove this unused import 'edu.fx.thrillio.constants.MovieGenre'.(║ю░йHЯRMINORZ
-CODE_SMELL

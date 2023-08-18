@@ -1,31 +1,0 @@
-
-k	java:S106"9Replace this use of System.out or System.err by a logger.(ÂèÑ8˜ÖÚ‰ 1HİRMAJORZ
-CODE_SMELL
-m	java:S125"<This block of commented-out lines of code should be removed.(Ö¹‹N8˜ÖÚ‰ 1HŞRMAJORZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(Æ¶¹ª8˜ÖÚ‰ 1HßRMAJORZ
-CODE_SMELL
-Y
-java:S2129"!Remove this "Integer" constructor(¶É½Êúÿÿÿÿ8˜ÖÚ‰ 1HàRMAJORZ
-CODE_SMELL
-{
-java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(ê© ‰8˜ÖÚ‰ 1HâRMAJORZ
-CODE_SMELL
-€
-java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(¶É½Êúÿÿÿÿ8˜ÖÚ‰ 1HãRMAJORZ
-CODE_SMELL
-s	java:S125"<This block of commented-out lines of code should be removed.(ÌÄÄûÿÿÿÿ8˜ÖÚ‰ 1HäRMAJORZ
-CODE_SMELL
-b
-java:S3740"/Provide the parametrized type for this generic.(¿è×™8˜ÖÚ‰ 1HåRMAJORZ
-CODE_SMELL
-S
-java:S2129" Remove this "Double" constructor(ê© ‰8˜ÖÚ‰ 1HæRMAJORZ
-CODE_SMELL
-n	java:S125"<This block of commented-out lines of code should be removed.(´¹ğ¿8˜ÖÚ‰ 1HèRMAJORZ
-CODE_SMELL
-g
-java:S3740 "/Provide the parametrized type for this generic.(µ½Ãåıÿÿÿÿ8˜ÖÚ‰ 1HéRMAJORZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(µÍÉ–8˜ÖÚ‰ 1HêRMAJORZ
-CODE_SMELL

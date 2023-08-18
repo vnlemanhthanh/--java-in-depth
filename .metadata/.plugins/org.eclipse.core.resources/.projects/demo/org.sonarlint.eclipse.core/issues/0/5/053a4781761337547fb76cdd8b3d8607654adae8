@@ -1,39 +1,0 @@
-
-g
-java:S3740B"/Provide the parametrized type for this generic.(ÕûÓµşÿÿÿÿ8Úƒ†ˆ 1HÓRMAJORZ
-CODE_SMELL
-h
-java:S3740"/Provide the parametrized type for this generic.(ş£§¦úÿÿÿÿ8Úƒ†ˆ 1HÔRMAJORZ
-CODE_SMELL
-‚
-java:S1192"GDefine a constant instead of duplicating this literal "Walden" 3 times.(¯õØéûÿÿÿÿ8Úƒ†ˆ 1HÕRCRITICALZ
-CODE_SMELL
-ƒ
-java:S3973€"GUse indentation to denote the code conditionally executed by this "if".(‚… şÿÿÿÿ8Úƒ†ˆ 1HÙRCRITICALZ
-CODE_SMELL
-ƒ
-java:S3973…"GUse indentation to denote the code conditionally executed by this "if".(š·ğÙıÿÿÿÿ8Úƒ†ˆ 1HÛRCRITICALZ
-CODE_SMELL
-p	java:S106"9Replace this use of System.out or System.err by a logger.(¢Û‹–üÿÿÿÿ8Úƒ†ˆ 1HİRMAJORZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(¤åŞ8Úƒ†ˆ 1HŞRMAJORZ
-CODE_SMELL
-p	java:S106 "9Replace this use of System.out or System.err by a logger.(×·Öøÿÿÿÿ8Úƒ†ˆ 1HßRMAJORZ
-CODE_SMELL
-p	java:S106&"9Replace this use of System.out or System.err by a logger.(ê¨°øÿÿÿÿ8Úƒ†ˆ 1HàRMAJORZ
-CODE_SMELL
-k	java:S1066"9Replace this use of System.out or System.err by a logger.(äüÃâ8Úƒ†ˆ 1HáRMAJORZ
-CODE_SMELL
-n	java:S125;"<This block of commented-out lines of code should be removed.(†‘‚ä8Úƒ†ˆ 1HâRMAJORZ
-CODE_SMELL
-z
-java:S1126‰"AReplace this if-then-else statement by a single return statement.(é’¿Àüÿÿÿÿ8Úƒ†ˆ 1HäRMINORZ
-CODE_SMELL
-t	java:S125"<This block of commented-out lines of code should be removed.(õÌÓÛøÿÿÿÿ8Úƒ†ˆ 1HåRMAJORZ
-CODE_SMELL
-j
-java:S1135¡"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Úƒ†ˆ 1HçRINFOZ
-CODE_SMELL
-h
-java:S1144"0Remove this unused private "hashSetDemo" method.(£·—úüÿÿÿÿ8Úƒ†ˆ 1HèRMAJORZ
-CODE_SMELL
