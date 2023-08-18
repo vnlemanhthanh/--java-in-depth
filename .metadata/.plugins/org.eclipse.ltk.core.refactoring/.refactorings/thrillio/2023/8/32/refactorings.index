@@ -1,0 +1,20 @@
+1691312112930	Rename package 'edu.fx.thrillio.entities.constants'
+1691315866623	Extract constant 'TOTAL_USER_COUNT'
+1691315906318	Extract constant 'BOOKMARK_TYPES_COUNT'
+1691315958200	Extract constant 'BOOKMARK_COUNT_PER_TYPE'
+1691316027467	Extract constant 'USER_BOOKMARK_LIMIT'
+1691322848238	Rename type 'Weblink'
+1691330490636	Rename method 'loadWeblinks'
+1691333841692	Change method 'getBookmarks'
+1691334378891	Infer generic type arguments
+1691334658978	Change method 'getUsers'
+1691335032142	Change method 'getBookmarks'
+1691345792854	Move files
+1691375661669	Encapsulate field 'kidFriendlyStatus'
+1691397210672	Extract interface 'Shareable'
+1691402688928	Encapsulate field 'kidFriendMarkedBy'
+1691404667602	Encapsulate field 'sharedBy'
+1691506632594	Move files
+1691506639076	Delete element
+1691699928729	Rename field 'kidFriendMarkedBy'
+1691700082679	Rename field 'amazoneRating'

@@ -1,0 +1,29 @@
+
+{
+java:S1192"FDefine a constant instead of duplicating this literal "Anita" 3 times.(¦ע₪F8לסˆ 1HכRCRITICALZ
+CODE_SMELL
+k	java:S106
+"9Replace this use of System.out or System.err by a logger.(סדם¦8לסˆ 1HןRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(›ע״רÿÿÿÿ8לסˆ 1HנRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(›ע״רÿÿÿÿ8לסˆ 1HסRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(°©ָדשÿÿÿÿ8לסˆ 1HעRMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Úט´8לסˆ 1HףRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(טפיםûÿÿÿÿ8לסˆ 1HפRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ת׃ׁש‎ÿÿÿÿ8לסˆ 1HץRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(«שכµ‎ÿÿÿÿ8לסˆ 1HצRMAJORZ
+CODE_SMELL
+k	java:S106!"9Replace this use of System.out or System.err by a logger.(ֳתק׳8לסˆ 1HקRMAJORZ
+CODE_SMELL
+p	java:S106&"9Replace this use of System.out or System.err by a logger.(›ע״רÿÿÿÿ8לסˆ 1HרRMAJORZ
+CODE_SMELL
+k	java:S1068"9Replace this use of System.out or System.err by a logger.(£ֻ׳ם8לסˆ 1HשRMAJORZ
+CODE_SMELL
+k	java:S106<"9Replace this use of System.out or System.err by a logger.(°ג³ׁ8לסˆ 1HתRMAJORZ
+CODE_SMELL

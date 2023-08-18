@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.entities.User"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.entities.Bookmark"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.entities.Movie"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.constants.Gender"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.DataStore"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.dao.UserDao"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.dao.BookmarkDao"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.constants.MovieGenre"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.constants.BookGenre"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.controllers.BookmarkController"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.constants.UserType"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.constants.KidFriendlyStatus"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.partner.Shareable"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.managers.UserManager"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.util.IOUtil"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.managers.BookmarkManager"/>
+    <fullyQualifiedTypeName name="org.apache.commons.lang3.StringUtils"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="edu.fx.thrillio.entities.Book"/>
+    <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+</qualifiedTypeNameHistroy>

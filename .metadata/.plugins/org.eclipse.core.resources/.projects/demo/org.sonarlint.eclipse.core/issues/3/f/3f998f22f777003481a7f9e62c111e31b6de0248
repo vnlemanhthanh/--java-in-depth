@@ -1,0 +1,59 @@
+
+b
+java:S3740"/Provide the parametrized type for this generic.(óËêø8Åò²‰ 1HRMAJORZ
+CODE_SMELL
+ƒ	java:S117]"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÔÿ‚8Åò²‰ 1H‘RMINORZ
+CODE_SMELL
+u
+java:S1854"=Remove this useless assignment to local variable "fixedList".(º‡÷Êøÿÿÿÿ8Åò²‰ 1H’RMAJORZ
+CODE_SMELL
+s
+java:S1854";Remove this useless assignment to local variable "strings".(ËÌ©ûÿÿÿÿ8Åò²‰ 1H“RMAJORZ
+CODE_SMELL
+n
+java:S1854";Remove this useless assignment to local variable "strings".(óËêø8Åò²‰ 1H”RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(‰Ü­Õùÿÿÿÿ8Åò²‰ 1H•RMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(»ôà”8Åò²‰ 1H–RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¢Ë„°8Åò²‰ 1H˜RMAJORZ
+CODE_SMELL
+f
+java:S1481".Remove this unused "fixedList" local variable.(º‡÷Êøÿÿÿÿ8Åò²‰ 1H™RMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(“Ö®ƒüÿÿÿÿ8Åò²‰ 1H›RMAJORZ
+CODE_SMELL
+p	java:S106 "9Replace this use of System.out or System.err by a logger.(í™¥¸ûÿÿÿÿ8Åò²‰ 1HœRMAJORZ
+CODE_SMELL
+p	java:S106&"9Replace this use of System.out or System.err by a logger.(ì‘»ğûÿÿÿÿ8Åò²‰ 1HRMAJORZ
+CODE_SMELL
+k	java:S106-"9Replace this use of System.out or System.err by a logger.( üœÂ8Åò²‰ 1HRMAJORZ
+CODE_SMELL
+p	java:S1065"9Replace this use of System.out or System.err by a logger.(ƒ«ºÓøÿÿÿÿ8Åò²‰ 1HŸRMAJORZ
+CODE_SMELL
+n	java:S1251"<This block of commented-out lines of code should be removed.(Ã†¸°8Åò²‰ 1H RMAJORZ
+CODE_SMELL
+p	java:S1069"9Replace this use of System.out or System.err by a logger.(¬ô‘ïûÿÿÿÿ8Åò²‰ 1H¡RMAJORZ
+CODE_SMELL
+j	java:S106="9Replace this use of System.out or System.err by a logger.(½‹–8Åò²‰ 1H¢RMAJORZ
+CODE_SMELL
+p	java:S106@"9Replace this use of System.out or System.err by a logger.(œõÑşÿÿÿÿ8Åò²‰ 1H£RMAJORZ
+CODE_SMELL
+p	java:S106B"9Replace this use of System.out or System.err by a logger.(•Óºäøÿÿÿÿ8Åò²‰ 1H¤RMAJORZ
+CODE_SMELL
+n	java:S125D"<This block of commented-out lines of code should be removed.(×é”ø8Åò²‰ 1H¥RMAJORZ
+CODE_SMELL
+k	java:S106S"9Replace this use of System.out or System.err by a logger.(ÿêÙÓ8Åò²‰ 1H¬RMAJORZ
+CODE_SMELL
+p	java:S106["9Replace this use of System.out or System.err by a logger.(ÔÁŸäûÿÿÿÿ8Åò²‰ 1H­RMAJORZ
+CODE_SMELL
+j	java:S106_"9Replace this use of System.out or System.err by a logger.(ÉÃø.8Åò²‰ 1H®RMAJORZ
+CODE_SMELL
+p	java:S106d"9Replace this use of System.out or System.err by a logger.(ãê¸îıÿÿÿÿ8Åò²‰ 1H¯RMAJORZ
+CODE_SMELL
+n	java:S125i"<This block of commented-out lines of code should be removed.(ÃÀÙš8Åò²‰ 1H°RMAJORZ
+CODE_SMELL
+e
+java:S1144W"-Remove this unused private "parallel" method.(ğşÖŸùÿÿÿÿ8Åò²‰ 1H±RMAJORZ
+CODE_SMELL

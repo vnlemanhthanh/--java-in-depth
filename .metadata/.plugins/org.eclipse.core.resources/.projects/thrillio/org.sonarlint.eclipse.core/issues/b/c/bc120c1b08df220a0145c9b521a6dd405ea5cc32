@@ -1,0 +1,41 @@
+
+`
+java:S1172D"/Remove this unused method parameter "bookmark".(ñ¦ï€ûÿÿÿÿHüRMAJORZ
+CODE_SMELL
+b
+java:S1135>"2Complete the task associated to this TODO comment.(º–ê¦üÿÿÿÿHøRINFOZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(³ë…¨HõRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(æ· §HôRMAJORZ
+CODE_SMELL
+T
+java:S1125A"(Remove the unnecessary boolean literals.(åîğHùRMINORZ
+CODE_SMELL
+^
+java:S14814"-Remove this unused "isShared" local variable.(È¦ãëûÿÿÿÿHöRMINORZ
+CODE_SMELL
+k
+java:S1118
+":Add a private constructor to hide the implicit public one.(ˆ¯¬ĞÿÿÿÿÿHæRMAJORZ
+CODE_SMELL
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(í±œÔHçRCRITICALZ
+CODE_SMELL
+m
+java:S18544"<Remove this useless assignment to local variable "isShared".(È¦ãëûÿÿÿÿHóRMAJORZ
+CODE_SMELL
+`
+java:S1066$"/Merge this if statement with the enclosing one.(°¾¦¡úÿÿÿÿHáRMAJORZ
+CODE_SMELL
+p
+java:S3358G"DExtract this nested ternary operation into an independent statement.(É‘¯êHşRMAJORZ
+CODE_SMELL
+`
+java:S1172L"/Remove this unused method parameter "bookmark".(Ù¿ÛûÿÿÿÿHÿRMAJORZ
+CODE_SMELL
+g	java:S125P"<This block of commented-out lines of code should be removed.(’ÍªØH„RMAJORZ
+CODE_SMELL
+T
+java:S1125M"(Remove the unnecessary boolean literals.(åîğHRMINORZ
+CODE_SMELL
